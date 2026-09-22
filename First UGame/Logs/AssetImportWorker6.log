@@ -1,0 +1,845 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.8f1 (1c7db571dde0) revision 1867189'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Core' Language: 'es' Physical Memory: 31937 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-fosa-" at "2026-09-22T02:03:24.2020913Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-09-22T02:03:24Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 9836, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              77c9be8a1fbb42c19afa47fb66d548fc
+  Correlation Id:          97794bb942cbb89c450ad9ce3233c1c7
+  External correlation Id: 2730295883910353941
+  Machine Id:              dNTIWy/nBifEOq4vYVwGYhCx+00=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-fosa-" (connect: 0.00s, validation: 0.00s, handshake: 0.03s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-fosa--notifications" at "2026-09-22T02:03:24.2336572Z"
+[Licensing::Module] Licensing Background thread has ended after 0.03s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/fosa-/Documents/UGameStudio/UGame project/First UGame
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+56111
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/fosa-/Documents/UGameStudio/UGame project/First UGame
+C:/Users/fosa-/Documents/UGameStudio/UGame project/First UGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [26984]  Target information:
+
+Player connection [26984]  * "[IP] 192.168.12.225 [Port] 0 [Flags] 2 [Guid] 1985479043 [EditorId] 1985479043 [Version] 1048832 [Id] WindowsEditor(7,Atom) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [26984] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [26984] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.58 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 1.22 ms.
+Initialize engine version: 6000.3.8f1 (1c7db571dde0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/fosa-/Documents/UGameStudio/UGame project/First UGame/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5070 Ti (ID=0x2c05)
+    Vendor:   NVIDIA
+    VRAM:     15995 MB
+    Driver:   32.0.16.1692
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001904 seconds.
+- Loaded All Assemblies, in  0.355 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.428 seconds
+Domain Reload Profiling: 780ms
+	BeginReloadAssembly (107ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (143ms)
+		LoadAssemblies (104ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (140ms)
+			TypeCache.Refresh (138ms)
+				TypeCache.ScanAssembly (127ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (428ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (364ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (57ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (147ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2475934605267-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Unloading broken assembly Assets/UGameStudio/Editor/UGS_E.dll, this assembly can cause crashes in the runtime
+- Loaded All Assemblies, in  1.307 seconds
+Refreshing native plugins compatible for Editor in 2.91 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.78 ms, found 5 plugins.
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.013 seconds
+Domain Reload Profiling: 3313ms
+	BeginReloadAssembly (174ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (1025ms)
+		LoadAssemblies (569ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (539ms)
+			TypeCache.Refresh (412ms)
+				TypeCache.ScanAssembly (390ms)
+			BuildScriptInfoCaches (107ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (2014ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1856ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (334ms)
+			ProcessInitializeOnLoadAttributes (1156ms)
+			ProcessInitializeOnLoadMethodAttributes (349ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 2.84 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 59 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11085 unused Assets / (20.9 MB). Loaded Objects now: 12597.
+Memory consumption went from 231.1 MB to 210.2 MB.
+Total: 24.981600 ms (FindLiveObjects: 1.579200 ms CreateObjectMapping: 1.821600 ms MarkObjects: 14.273700 ms  DeleteObjects: 7.305300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 440498.277624 seconds.
+  path: Assets/UGameStudio/Tools/Player/Player.cs
+  artifactKey: Guid(fb4a79b32230d5d43bdcf1d17c76b8da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/Tools/Player/Player.cs using Guid(fb4a79b32230d5d43bdcf1d17c76b8da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0ff38401182a4b11d2861be2fff383de') in 0.0551344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UGameStudio/EditorIcons/PowerUpPurchaseButton_Icon.png
+  artifactKey: Guid(105e8a0fd240f7541901b1325ad87116) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/EditorIcons/PowerUpPurchaseButton_Icon.png using Guid(105e8a0fd240f7541901b1325ad87116) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fb4933363e5cc24040a2d98e1ae3ae46') in 0.0864923 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UGameStudio/IAP/Scenes/UGS_IAP_DEMO.unity
+  artifactKey: Guid(f6d7a91d5b9f10744a622badfa628626) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/IAP/Scenes/UGS_IAP_DEMO.unity using Guid(f6d7a91d5b9f10744a622badfa628626) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd74482ea3b55c6ab8f06da7ca8b7cf1b') in 0.0148546 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/UGameStudio/Tools/GameControllers/GameOverManager
+  artifactKey: Guid(11091ecf47bf46340b69bea83c424f34) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/Tools/GameControllers/GameOverManager using Guid(11091ecf47bf46340b69bea83c424f34) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '68be62a7a7f124a9f48745af49f13ab4') in 0.0082382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UGameStudio/Tools/GeneralActions/ScoreIncreaser.cs
+  artifactKey: Guid(706b83ebdf308624f8de3e589e5d41f1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/Tools/GeneralActions/ScoreIncreaser.cs using Guid(706b83ebdf308624f8de3e589e5d41f1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2d2820268c3a6e1f975eb5847c3a1b0a') in 0.0093054 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UGameStudio/GameCenter_AchievementsAndLeaderboards
+  artifactKey: Guid(e50fd450c11162d41ab46ab0447a3b21) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/GameCenter_AchievementsAndLeaderboards using Guid(e50fd450c11162d41ab46ab0447a3b21) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8f51fd1bbe2108bdeb00d4b55b41a755') in 0.0090884 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UGameStudio/Tools/PlatformActions/Ladders.cs
+  artifactKey: Guid(c4a239a4fd0bbb6469d799b33b29253e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/Tools/PlatformActions/Ladders.cs using Guid(c4a239a4fd0bbb6469d799b33b29253e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a2fbbd4645c6ff382e2f816f20a9a6d9') in 0.0086799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UGameStudio/EditorIcons/TargetIcon.png
+  artifactKey: Guid(14ddc6c0f31f30145b435e6d29852a9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/EditorIcons/TargetIcon.png using Guid(14ddc6c0f31f30145b435e6d29852a9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3262ecc4b9ca2f9f3e76d2b1e1b362c5') in 0.0158612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UGameStudio/Tools/AnimatorManagers/AnimatorManagerWithEnemyStates.cs
+  artifactKey: Guid(f9087031c50ca13439dc5c611991fffe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/Tools/AnimatorManagers/AnimatorManagerWithEnemyStates.cs using Guid(f9087031c50ca13439dc5c611991fffe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '206be9b55eca383f739c88ba59997092') in 0.0083838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/UGameStudio/Tools/UserInterface/Pause/ResumeButton.cs
+  artifactKey: Guid(a2efb2e989c2f964c847556e18437821) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/Tools/UserInterface/Pause/ResumeButton.cs using Guid(a2efb2e989c2f964c847556e18437821) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '40e81efa843dcf25aa8b4ab2d32c2609') in 0.0085581 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UGameStudio/EditorIcons/SelectorButton_Icon.png
+  artifactKey: Guid(9f97ea24ac30d8d4fa7f4c7465436a69) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/EditorIcons/SelectorButton_Icon.png using Guid(9f97ea24ac30d8d4fa7f4c7465436a69) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd66c3ed1a4bd724961c780721d6314d7') in 0.0170788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/UGameStudio/EditorIcons/rightDirectionHeadWhite_Icon.png
+  artifactKey: Guid(c00dda53471267d428ce0ec76f375b61) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/EditorIcons/rightDirectionHeadWhite_Icon.png using Guid(c00dda53471267d428ce0ec76f375b61) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8713c9f222974c3967726c442589c7e1') in 0.0174309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/UGameStudio/_ Basic Demo/FX/Explode/explode03.png
+  artifactKey: Guid(b43ee46a1220c8b408a83ab2036f0bd1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/_ Basic Demo/FX/Explode/explode03.png using Guid(b43ee46a1220c8b408a83ab2036f0bd1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b8271c2dc9c5e70acf8f5c673a22bcf3') in 0.0181716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UGameStudio/EditorIcons/GameSettings_Icon.png
+  artifactKey: Guid(6a2eb1a9be8d3a54585e5d113119e15c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/EditorIcons/GameSettings_Icon.png using Guid(6a2eb1a9be8d3a54585e5d113119e15c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1a713426e7092a8e475d8b38310b1607') in 0.0150658 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UGameStudio/Tools/GameControllers/TimeControllers/ProgressiveTimeScore.cs
+  artifactKey: Guid(f892e976b0cc46d449aaff9d1fa7fc01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/Tools/GameControllers/TimeControllers/ProgressiveTimeScore.cs using Guid(f892e976b0cc46d449aaff9d1fa7fc01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '97a38ee8b05c1e3126a8897c282d24f0') in 0.0096928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/UGameStudio/EditorIcons/ArActions/ar_video.png
+  artifactKey: Guid(48329880ab3a1144b904309d4611cd11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/EditorIcons/ArActions/ar_video.png using Guid(48329880ab3a1144b904309d4611cd11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8dfca0d763720aae70e265eaa00e443d') in 0.0156155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UGameStudio/Tools/UserInterface/PlayerInfo/ShowPlayerHealth.cs
+  artifactKey: Guid(3163ceeb71c5fa64c9b8bf41694f3394) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/Tools/UserInterface/PlayerInfo/ShowPlayerHealth.cs using Guid(3163ceeb71c5fa64c9b8bf41694f3394) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '06ba33ec9ab3bb1f58d3da5b12e9dca4') in 0.0087991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UGameStudio/Tools/UGameStudioScripts/VariablesAndSelectors/SceneVariables.cs
+  artifactKey: Guid(e2cf362e786a9ab49a65ad21b66dc85c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/Tools/UGameStudioScripts/VariablesAndSelectors/SceneVariables.cs using Guid(e2cf362e786a9ab49a65ad21b66dc85c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f7af71243a56ce72aa3b6953d6b625c6') in 0.0103355 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UGameStudio/EditorIcons/WeaponPickup_Icon.png
+  artifactKey: Guid(62526e9c46584924c9ac57132ddeb6b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/EditorIcons/WeaponPickup_Icon.png using Guid(62526e9c46584924c9ac57132ddeb6b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9349bcb5ee1a298a0e68378109df7634') in 0.0150703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UGameStudio/EditorIcons/ButtonToDeleteSavePoint_Icon.png
+  artifactKey: Guid(acf4738412f59df40a5286c1bc835f18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/EditorIcons/ButtonToDeleteSavePoint_Icon.png using Guid(acf4738412f59df40a5286c1bc835f18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8db74e7574f201c7adc0bae025baa4cc') in 0.0128556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UGameStudio/Tools/UserInterface/CharacterSelection/CharacterBox.cs
+  artifactKey: Guid(22b01006e919a65439c7a09b655e60a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/Tools/UserInterface/CharacterSelection/CharacterBox.cs using Guid(22b01006e919a65439c7a09b655e60a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd6242cf9a6421f1921422841bf46dcbc') in 0.0085798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/UGameStudio/Sprites/Examples/Player.png
+  artifactKey: Guid(fe8bae0154ebf734786bc38bd340bced) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/Sprites/Examples/Player.png using Guid(fe8bae0154ebf734786bc38bd340bced) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2075ebd0f4444970767a30e62dc71e94') in 0.0128394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UGameStudio/Tools/UGameStudioScripts/DefineSymbolsAux.cs
+  artifactKey: Guid(708c044f0e52c264a8383d56aceedc0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/Tools/UGameStudioScripts/DefineSymbolsAux.cs using Guid(708c044f0e52c264a8383d56aceedc0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '07bac8ace02e450525917705234617d9') in 0.008598 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UGameStudio/Tools/Player/PlayerMovements/RotateWithInput.cs
+  artifactKey: Guid(2fbfe192044897a418b548aa24c35d8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/Tools/Player/PlayerMovements/RotateWithInput.cs using Guid(2fbfe192044897a418b548aa24c35d8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2766e514e498b5c990457237467d460c') in 0.0097889 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UGameStudio/GameCenter_AchievementsAndLeaderboards/_UGS/UGS_ResetAchievementsButton.cs
+  artifactKey: Guid(31f8a0e90c2dcaa478a3bcce4dba6402) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/GameCenter_AchievementsAndLeaderboards/_UGS/UGS_ResetAchievementsButton.cs using Guid(31f8a0e90c2dcaa478a3bcce4dba6402) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '98ffd7c9be983b5cb6f2c7dcc8dfd389') in 0.0091646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UGameStudio/EditorIcons/ScoresManager_Icon.png
+  artifactKey: Guid(e8306e0c3345b1c4790e5ff4c9c8196c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/EditorIcons/ScoresManager_Icon.png using Guid(e8306e0c3345b1c4790e5ff4c9c8196c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '828442ce696d73b4c556ac6bbc51a1a0') in 0.0132265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UGameStudio/Materials/Water.mat
+  artifactKey: Guid(bf40bc66694cfac489565a26c7f71564) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/Materials/Water.mat using Guid(bf40bc66694cfac489565a26c7f71564) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c227bd7a7d3e2f150bc31d5f656c2582') in 0.0214925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UGameStudio/EditorIcons/Joystick_black.png
+  artifactKey: Guid(b62d2ad2d3704b6448bd284b9cdb98b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/EditorIcons/Joystick_black.png using Guid(b62d2ad2d3704b6448bd284b9cdb98b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a4bb08f6a6210c3356287bc481862de4') in 0.0148242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UGameStudio/Tools/EnemyComponents/AI/ObstacleDetector3D.cs
+  artifactKey: Guid(9d8b7d6925519f8408b27768b4848f99) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/Tools/EnemyComponents/AI/ObstacleDetector3D.cs using Guid(9d8b7d6925519f8408b27768b4848f99) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '503d236859dbb7f941a337884ffe81d7') in 0.0089154 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UGameStudio/EditorIcons/PowerUpByDefault_Icon.png
+  artifactKey: Guid(9534678c4747cc64eaeb478bda74eb08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/EditorIcons/PowerUpByDefault_Icon.png using Guid(9534678c4747cc64eaeb478bda74eb08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8282732a94ac7059898f2a3b5c8b7405') in 0.0155487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UGameStudio/EditorIcons/ShowNumberOfProjectiles_Icon.png
+  artifactKey: Guid(04935db8501e7a34fab6b1fd06aa5a53) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/EditorIcons/ShowNumberOfProjectiles_Icon.png using Guid(04935db8501e7a34fab6b1fd06aa5a53) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ad4bf4468237ca9251fdee29a102286d') in 0.012346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UGameStudio/Tools/SoundManagers
+  artifactKey: Guid(deb207f423ea9404fadf379d3c64b59b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/Tools/SoundManagers using Guid(deb207f423ea9404fadf379d3c64b59b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '465c9033320cf51de973601e6109c90f') in 0.0084435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UGameStudio/Prefabs/Water/DynamicWaterMesh.prefab
+  artifactKey: Guid(bd7d08261984f0f47981e1d04ab665d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/Prefabs/Water/DynamicWaterMesh.prefab using Guid(bd7d08261984f0f47981e1d04ab665d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '905e339fafa23350622937acc54ec993') in 0.0352084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UGameStudio/Tools/LevelGenerator/GenerateObjectsByDistance.cs
+  artifactKey: Guid(9fb3aacfe41773443a4688a234257288) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/Tools/LevelGenerator/GenerateObjectsByDistance.cs using Guid(9fb3aacfe41773443a4688a234257288) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '69a37d6773ad9c699168a5baa04da87f') in 0.0122186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/UGameStudio/Editor/Data/PluginsForUGameStudio.asset
+  artifactKey: Guid(717a6e5670c0c3041a84446b3bc9d394) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/Editor/Data/PluginsForUGameStudio.asset using Guid(717a6e5670c0c3041a84446b3bc9d394) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b0b168ba1fb3c5bea120522ae9525833') in 0.0184351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UGameStudio/Tools/UserInterface/CharacterSelection/CharacterPurchaseButton.cs
+  artifactKey: Guid(cd0ebd8cccb6d5f41a742dac1c0d2572) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/Tools/UserInterface/CharacterSelection/CharacterPurchaseButton.cs using Guid(cd0ebd8cccb6d5f41a742dac1c0d2572) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f9eb5c0ce81c229811de50f2ad3e1fc8') in 0.0090023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UGameStudio/GooglePlay_AchievementsAndLeaderboards/LoginToGPGButton.cs
+  artifactKey: Guid(32c1c2d6ee6268c42aa1aebc59e84a81) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/GooglePlay_AchievementsAndLeaderboards/LoginToGPGButton.cs using Guid(32c1c2d6ee6268c42aa1aebc59e84a81) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3f2a892be61e33b083dc264d697a6282') in 0.0085814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UGameStudio/Tools/UGameStudioScripts/ScriptableObjects/WeaponFactory.cs
+  artifactKey: Guid(ed1dd636fc2ea3640a305547dc75a201) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/Tools/UGameStudioScripts/ScriptableObjects/WeaponFactory.cs using Guid(ed1dd636fc2ea3640a305547dc75a201) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'efe8bdb425d2997a86b50aa63bee2c06') in 0.0078387 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UGameStudio/EditorIcons/SideScrollingPlayerMovement_Icon.png
+  artifactKey: Guid(d718aae5b91a8404cb03aecd7ac8ba12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/EditorIcons/SideScrollingPlayerMovement_Icon.png using Guid(d718aae5b91a8404cb03aecd7ac8ba12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1297560636f0afe70d90ac6cdb97606c') in 0.0138946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UGameStudio/Tools/GameControllers/GameOverManager/GameOverManager.cs
+  artifactKey: Guid(f57612226f0225342846637feaf01fd7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/Tools/GameControllers/GameOverManager/GameOverManager.cs using Guid(f57612226f0225342846637feaf01fd7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '19a3de6cdc922bb479aedb8e04121023') in 0.0101485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UGameStudio/EditorIcons/Mount.png
+  artifactKey: Guid(041749e216b9ce64783ce6f259b29098) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/EditorIcons/Mount.png using Guid(041749e216b9ce64783ce6f259b29098) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1028672a4aa94a7c9ad9e6b1dbfaf2c5') in 0.0202116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/UGameStudio/EditorIcons/Ladders_Icon.png
+  artifactKey: Guid(d5bffcef522e9e541a3bbd5d3c29f50d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/EditorIcons/Ladders_Icon.png using Guid(d5bffcef522e9e541a3bbd5d3c29f50d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '68c72e50d652d9ead140c253cec457d5') in 0.0126813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UGameStudio/_ Basic Demo/Other Prefabs
+  artifactKey: Guid(f182783621a3ac2419221b1eae5dd992) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/_ Basic Demo/Other Prefabs using Guid(f182783621a3ac2419221b1eae5dd992) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6b0e48edafc746db61ef5d6776c67488') in 0.0077136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UGameStudio/EditorIcons/IgnoreCollisionsIcon.png
+  artifactKey: Guid(93ccf9d37be9d724b975a41fedfe5c43) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/EditorIcons/IgnoreCollisionsIcon.png using Guid(93ccf9d37be9d724b975a41fedfe5c43) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c7c27328495d561c13c8a8d40d904e17') in 0.0138472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UGameStudio/EditorIcons/Player_Icon.png
+  artifactKey: Guid(282a167053d40234391e59fd02e49ae8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/EditorIcons/Player_Icon.png using Guid(282a167053d40234391e59fd02e49ae8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c21a2c5096ba27f7ece7676c4b9bad39') in 0.01457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UGameStudio/EditorIcons/LanguageChangeButton_Icon.png
+  artifactKey: Guid(9fa145a9269e4a844917b5944ca765b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/EditorIcons/LanguageChangeButton_Icon.png using Guid(9fa145a9269e4a844917b5944ca765b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '35a18f8d347d79a6d6e0393b8f2f11bc') in 0.0142697 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UGameStudio/Sprites/Examples/Grenade.png
+  artifactKey: Guid(540ec6f3288719a43980ad02e44726f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/Sprites/Examples/Grenade.png using Guid(540ec6f3288719a43980ad02e44726f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7cfc6bbf1d22a7bf0f4720562f35c35f') in 0.0130021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/UGameStudio/EditorIcons/GPGManager_icon.png
+  artifactKey: Guid(d7d3d825ef044f14786b356a94d8f5ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/EditorIcons/GPGManager_icon.png using Guid(d7d3d825ef044f14786b356a94d8f5ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5cc80b9dd82d9cdd996ce484c770fe49') in 0.012067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UGameStudio/Prefabs/EditorPrefabs/CircularFillerImageUI.prefab
+  artifactKey: Guid(d85690c41fcd2d44cbbd4a09e8b8c820) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/Prefabs/EditorPrefabs/CircularFillerImageUI.prefab using Guid(d85690c41fcd2d44cbbd4a09e8b8c820) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ec0498e10243d1d61e3414befe4a998c') in 0.0255381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UGameStudio/Prefabs/Water/Water2DExample.prefab
+  artifactKey: Guid(f26a4da45f00b4b4984a9376ed95a781) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/Prefabs/Water/Water2DExample.prefab using Guid(f26a4da45f00b4b4984a9376ed95a781) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '40748760351b8935715d3897fe815e5d') in 0.0272569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UGameStudio/Tools/Player/PlayerMovements
+  artifactKey: Guid(4d9cb66e0bddc9144b14a70a92d7720f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/Tools/Player/PlayerMovements using Guid(4d9cb66e0bddc9144b14a70a92d7720f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '059b59db3a01209fc8ccf745445a8060') in 0.0080807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UGameStudio/EditorIcons/LookAtTarget_Icon.png
+  artifactKey: Guid(e0ddbbe289cd4ee4a9cc5aec2dc81505) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/EditorIcons/LookAtTarget_Icon.png using Guid(e0ddbbe289cd4ee4a9cc5aec2dc81505) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7489d6cf183242018895428a259e8eb4') in 0.0182226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/UGameStudio/_ Basic Demo/FX/Explode/Animation/ExplodeAnim.anim
+  artifactKey: Guid(4e46931f0dc2d0f4fbfaafea9af13e8c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/_ Basic Demo/FX/Explode/Animation/ExplodeAnim.anim using Guid(4e46931f0dc2d0f4fbfaafea9af13e8c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '73d687fe00fb6d5bb13092e656fcfe19') in 0.0177594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/UGameStudio/Tools/UserInterface/PlayerInfo/ShowRemainingTimeToGetLife.cs
+  artifactKey: Guid(7163a3fe8088d88468acac5d3f16a7b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/Tools/UserInterface/PlayerInfo/ShowRemainingTimeToGetLife.cs using Guid(7163a3fe8088d88468acac5d3f16a7b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '104c1e4f554e5e2dcaaafee0fe9b1055') in 0.0094096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UGameStudio/EditorIcons/ShowObjectDependingOnPlatform_Icon.png
+  artifactKey: Guid(d29fdcfe83089d84c9049c116046b1c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/EditorIcons/ShowObjectDependingOnPlatform_Icon.png using Guid(d29fdcfe83089d84c9049c116046b1c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '40e74cdd754742c9087cf8b71795b325') in 0.0120965 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UGameStudio/Tools/UGameStudioScripts/UGameAction/UGSActions
+  artifactKey: Guid(6b51d246728dfeb449132eeaaf834dcd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/Tools/UGameStudioScripts/UGameAction/UGSActions using Guid(6b51d246728dfeb449132eeaaf834dcd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9624c884f91ebf798c5804ae3dd95ea9') in 0.0088907 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UGameStudio/_ Basic Demo/Weapons
+  artifactKey: Guid(7f47de4f3b5b2b64c8c5549dc31358e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/_ Basic Demo/Weapons using Guid(7f47de4f3b5b2b64c8c5549dc31358e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5059face4320613a72917e22c7850783') in 0.0074183 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UGameStudio/EditorIcons/ButtonToFinishTheGame_Icon.png
+  artifactKey: Guid(c956e4e37ab6f924dabb7ab7aaee238c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/EditorIcons/ButtonToFinishTheGame_Icon.png using Guid(c956e4e37ab6f924dabb7ab7aaee238c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '863e01ce254abe303f483306234eb720') in 0.0134182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UGameStudio/EditorIcons/ArActions/ar_phone.png
+  artifactKey: Guid(b67409ca2f0ccb347a8e3f7dc725dbf4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/EditorIcons/ArActions/ar_phone.png using Guid(b67409ca2f0ccb347a8e3f7dc725dbf4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '72d61587e86814467d4419fa966c74c7') in 0.013796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/UGameStudio/EditorIcons/CharactersManager_Icon.png
+  artifactKey: Guid(9a70b63dd8889214a9b5cda0e57a834b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/EditorIcons/CharactersManager_Icon.png using Guid(9a70b63dd8889214a9b5cda0e57a834b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '68d2df01c5de54aa26857da5aff87e00') in 0.0136292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UGameStudio/ShareInSocialMedia/_UGS
+  artifactKey: Guid(d7589121daebf4f45b4b106e7ad51d4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/ShareInSocialMedia/_UGS using Guid(d7589121daebf4f45b4b106e7ad51d4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7ae8af6fb17f5ac98589fcc933c3968c') in 0.0083296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UGameStudio/EditorIcons/yellowAnchorIcon.png
+  artifactKey: Guid(94638411340af4349a1c38e78789f788) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/EditorIcons/yellowAnchorIcon.png using Guid(94638411340af4349a1c38e78789f788) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e927ea1265e4e805b03e5b6f44c8734a') in 0.013938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UGameStudio/AdsManagerForYodo1MAS/Prefabs/CANVAS_FOR_REWARDS.prefab
+  artifactKey: Guid(6de3d2e4f8fbc3d4aa0e8ab2d6cba111) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/AdsManagerForYodo1MAS/Prefabs/CANVAS_FOR_REWARDS.prefab using Guid(6de3d2e4f8fbc3d4aa0e8ab2d6cba111) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bfe5b665455fb8e3f7b5299c58aca399') in 0.0270444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UGameStudio/EditorIcons/WaterPhysics2D_Icon.png
+  artifactKey: Guid(36106e60fb8482d47b3314da40b6f00c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/EditorIcons/WaterPhysics2D_Icon.png using Guid(36106e60fb8482d47b3314da40b6f00c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '63ab04cfaf59f0a051a9cb69c1551c80') in 0.015948 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UGameStudio/EditorIcons/ShowScore_Icon.png
+  artifactKey: Guid(5234ec62e627fb341a72e877bcdb80a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/EditorIcons/ShowScore_Icon.png using Guid(5234ec62e627fb341a72e877bcdb80a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5d1059e87f401fcaf01987a809a4d1f4') in 0.0156889 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/UGameStudio/EditorIcons/ConstantRotation_Icon.png
+  artifactKey: Guid(143af205d2f4bcd4abde5f1253c12cda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/EditorIcons/ConstantRotation_Icon.png using Guid(143af205d2f4bcd4abde5f1253c12cda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f706d04fdf06406741f6b2cbaffe5181') in 0.024566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UGameStudio/IAP/_UGS/UGS_UGameStudioIAPButton.cs
+  artifactKey: Guid(23938a0112aa2354aa7790d4f5818be0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/IAP/_UGS/UGS_UGameStudioIAPButton.cs using Guid(23938a0112aa2354aa7790d4f5818be0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2d29d60a4d0ea616dd4f50dadf90008d') in 0.0099205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UGameStudio/Tools/UserInterface/PlayerInfo
+  artifactKey: Guid(75a2c642734e00d4b9e9f001d966fa1b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/Tools/UserInterface/PlayerInfo using Guid(75a2c642734e00d4b9e9f001d966fa1b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ceca802ca92cc6344f024b7e967535a5') in 0.0097939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UGameStudio/Tools/TextureScrollers/TextureScroller.cs
+  artifactKey: Guid(bfb204941ead56943bad487f11d6ab8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/Tools/TextureScrollers/TextureScroller.cs using Guid(bfb204941ead56943bad487f11d6ab8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6d6fd08aff4c1cdeaa219656bf02ff5e') in 0.010422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UGameStudio/Tools/Gravity/GravityStateForAnimator.cs
+  artifactKey: Guid(80bf7ef7ee8faf54d89145ad3f3d12ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/Tools/Gravity/GravityStateForAnimator.cs using Guid(80bf7ef7ee8faf54d89145ad3f3d12ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '371b52656751b6bdfef6bbd152c3c19c') in 0.0090983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UGameStudio/EditorIcons/HandleObjectsWithPathFollowerStates_Icon.png
+  artifactKey: Guid(9f28bc6d69602084abd778c3a7e8143c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/EditorIcons/HandleObjectsWithPathFollowerStates_Icon.png using Guid(9f28bc6d69602084abd778c3a7e8143c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '21dbb6a06935b3d5fefa2af68d9673ee') in 0.0145004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/UGameStudio/GooglePlay_AchievementsAndLeaderboards/_UGS/UGS_GPGManager.cs
+  artifactKey: Guid(3ceb778c329e05943b9b04e86f7dc1c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/GooglePlay_AchievementsAndLeaderboards/_UGS/UGS_GPGManager.cs using Guid(3ceb778c329e05943b9b04e86f7dc1c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1749461e2d330d9d126d0a30629548c7') in 0.0090834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UGameStudio/EditorIcons/googleplaygames2_icon.png
+  artifactKey: Guid(e5f93a205d57e6749ae04d65b9f729b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/EditorIcons/googleplaygames2_icon.png using Guid(e5f93a205d57e6749ae04d65b9f729b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b1c0466d60703da4c430310877430a52') in 0.013189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UGameStudio/Tools/PowerUps
+  artifactKey: Guid(7037ef86589044446af8b4e1a8b9713e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/Tools/PowerUps using Guid(7037ef86589044446af8b4e1a8b9713e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c13efa1528741f80e2195ce32c089f16') in 0.0071837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UGameStudio/EditorIcons/DestroyIfWasObtainedBefore_Icon.png
+  artifactKey: Guid(a5c2875d27a23634991329834e96a5d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/EditorIcons/DestroyIfWasObtainedBefore_Icon.png using Guid(a5c2875d27a23634991329834e96a5d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5148d1bd8db8fa849a1d7e63661bd158') in 0.0123087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UGameStudio/Prefabs/EditorPrefabs/ModalPanelExample.prefab
+  artifactKey: Guid(b5234573f4c5fb740b553e45c90cddf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/Prefabs/EditorPrefabs/ModalPanelExample.prefab using Guid(b5234573f4c5fb740b553e45c90cddf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd1c78c58939d475907461fdabb562465') in 0.0244549 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UGameStudio/EditorIcons/IncreaseProjectiles_Icon.png
+  artifactKey: Guid(759db1bda7cf8fa49b0120f1a1893a37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/EditorIcons/IncreaseProjectiles_Icon.png using Guid(759db1bda7cf8fa49b0120f1a1893a37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd5724a9dfc41d9ba5db63e2a54bf6c83') in 0.0142151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/UGameStudio/EditorIcons/LevelGenerator_Icon.png
+  artifactKey: Guid(4bd035e0b1029d544bea22dbf2c65f3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UGameStudio/EditorIcons/LevelGenerator_Icon.png using Guid(4bd035e0b1029d544bea22dbf2c65f3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '558a122fa2bbbc702afa14a19cd58a7f') in 0.0142363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
